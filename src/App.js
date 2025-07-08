@@ -1,13 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
-import PrimaryButton from "./PrimaryButton";
+import PrimaryButton from './PrimaryButton';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <PrimaryButton text="Button" />
-      </header>
+    <div className="App" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', minHeight: '100vh' }}>
+      <PrimaryButton text="Button" />
     </div>
   );
 }
