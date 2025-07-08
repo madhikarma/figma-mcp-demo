@@ -1,0 +1,28 @@
+.primary-btn-wrapper {
+  background: #33B249;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px; /* adjust as needed */
+  height: 40px; /* adjust as needed */
+}
+
+.primary-btn-base {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+.primary-btn-text {
+  color: #120202;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: left;
+} 
