@@ -1,18 +1,12 @@
-import React from "react";
-import "./PrimaryButton.css";
+import React from 'react';
+import './PrimaryButton.css';
 
-export function PrimaryButtonBase({ text = "Button" }) {
+function PrimaryButton({ text = 'Button' }) {
   return (
-    <div className="primary-btn-base">
-      <span className="primary-btn-text">{text}</span>
-    </div>
+    <button className="primary-button">
+      {text}
+    </button>
   );
 }
 
-export default function PrimaryButton({ text = "Button" }) {
-  return (
-    <div className="primary-btn-wrapper">
-      <PrimaryButtonBase text={text} />
-    </div>
-  );
-} 
+export default PrimaryButton; 

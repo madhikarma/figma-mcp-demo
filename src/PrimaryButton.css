@@ -1,28 +1,16 @@
-.primary-btn-wrapper {
-  background: #33B249;
-  border-radius: 8px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 120px; /* adjust as needed */
-  height: 40px; /* adjust as needed */
-}
-
-.primary-btn-base {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 10px;
-  width: 100%;
-  height: 100%;
-}
-
-.primary-btn-text {
+.primary-button {
+  background-color: #33B249;
   color: #120202;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 24px;
   font-family: Arial, sans-serif;
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
-  line-height: normal;
-  text-align: left;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.primary-button:hover {
+  background-color: #28963a;
 } 
